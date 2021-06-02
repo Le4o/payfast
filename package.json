@@ -1,0 +1,25 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "memcached": "^2.2.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "restify-clients": "^3.1.0",
+    "soap": "^0.39.0",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "clusterize": "nodemon src/cluster.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

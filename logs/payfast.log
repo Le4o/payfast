@@ -1,0 +1,4 @@
+{"message":"COnsultando pagamento 32","level":"info"}
+{"message":"HIT: {\"valor\":\"15\",\"moeda\":\"BRL\",\"forma_de_pagamento\":\"cartao\",\"status\":\"CRIADO\",\"date\":\"2021-06-02T17:09:53.404Z\",\"id\":32}","level":"info"}
+{"message":"::1 - - [02/Jun/2021:18:11:57 +0000] \"GET /pagamentos/32 HTTP/1.1\" 200 118\n","level":"info"}
+{"message":"::1 - - [02/Jun/2021:18:13:40 +0000] \"POST /pagamentos HTTP/1.1\" 202 288\n","level":"info"}
